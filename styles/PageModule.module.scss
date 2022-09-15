@@ -4,3 +4,9 @@
   background-color: $color_bg2;
   padding: 10px;
 }
+
+.big_cont {
+  background-color: $color_bg;
+  min-height: 100vh;
+  padding: clamp(0.8rem, 5vw, 2rem);
+}

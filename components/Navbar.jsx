@@ -6,7 +6,9 @@ const Navbar = () => {
     <nav>
       <div className={sty.nav_main}>
         <div className={sty.nav_title}>
-          <h1>For dummies</h1>
+          <h1>
+            <Link href="/">For dummies</Link>
+          </h1>
         </div>
         <div className={sty.nav_links}>
           <Link href="#">Legal</Link>

@@ -16,9 +16,3 @@ a {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
-.index_page {
-  background-color: $color_bg;
-  min-height: 100vh;
-  padding: clamp(0.8rem, 5vw, 2rem);
-}
