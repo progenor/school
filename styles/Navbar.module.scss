@@ -1,0 +1,26 @@
+@import "./variables.module.scss";
+
+.nav_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 clamp(1rem, 5vw, 2rem);
+  background-color: $color_pri;
+  padding: clamp(0.3rem, 5vw, 1rem) 0;
+
+  .nav_title {
+    h1 {
+      margin: 0;
+      font-size: clamp(1.2rem, 5vw, 1.8rem);
+    }
+  }
+
+  .nav_links {
+    display: flex;
+    gap: clamp(1rem, 5vw, 2rem);
+    a {
+      font-weight: 600;
+      font-size: 20px;
+    }
+  }
+}

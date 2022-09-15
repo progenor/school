@@ -1,0 +1,17 @@
+@import "./variables.module.scss";
+.footer_main {
+  min-height: 30px;
+  background-color: $color_pri;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 100%;
+  p {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 18px;
+    span {
+      font-weight: 600;
+    }
+  }
+}
